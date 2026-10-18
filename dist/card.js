@@ -1,7 +1,7 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import * as React from "react";
 import { cn } from "./utils.js";
-export const Card = React.forwardRef(({ className, ...props }, ref) => _jsx("div", { ref: ref, className: cn("rounded-xl border bg-card text-card-foreground shadow", className), ...props }));
+export const Card = React.forwardRef(({ className, ...props }, ref) => _jsx("div", { ref: ref, className: cn("rounded-xl border border-border bg-card text-card-foreground shadow", className), ...props }));
 Card.displayName = "Card";
 export const CardHeader = React.forwardRef(({ className, ...props }, ref) => _jsx("div", { ref: ref, className: cn("flex flex-col space-y-1.5 p-6", className), ...props }));
 CardHeader.displayName = "CardHeader";
