@@ -6,3 +6,4 @@ export { FormSelect } from "./form-select.js";
 export { Select, SelectGroup, SelectValue, SelectTrigger, SelectContent, SelectLabel, SelectItem, SelectSeparator, SelectScrollUpButton, SelectScrollDownButton } from "./select.js";
 export { Switch } from "./switch.js";
 export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption } from "./table.js";
+export { ErpTopBar, ErpSidebarHeader } from "./shell.js";
